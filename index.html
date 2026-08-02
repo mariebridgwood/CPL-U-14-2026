@@ -1,0 +1,635 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.3">
+  <style type="text/css">
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    span.s1 {font-kerning: none}
+    span.s2 {font: 24.0px 'Apple Color Emoji'; font-kerning: none}
+    span.s3 {font: 24.0px 'Apple Color Emoji'; font-kerning: none; -webkit-text-stroke: 0px #000000}
+    span.s4 {font: 24.0px Helvetica; font-kerning: none}
+    table.t1 {border-collapse: collapse}
+    td.td1 {border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #bfbfbf #bfbfbf #bfbfbf #bfbfbf; padding: 0.0px 5.0px 0.0px 5.0px}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s1">&lt;!DOCTYPE</span><span class="s2"> </span><span class="s1">html&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s1">&lt;html</span><span class="s2"> </span><span class="s1">lang="en"&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s1">&lt;head&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;meta</span><span class="s2"> </span><span class="s1">charset="UTF-</span><span class="s2">8</span><span class="s1">"&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;meta</span><span class="s2"> </span><span class="s1">name="viewport"</span><span class="s2"> </span><span class="s1">content="width=device-width,</span><span class="s2"> </span><span class="s1">initial-scale=</span><span class="s2">1</span><span class="s1">"&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;title&gt;</span><span class="s2">🦁 </span><span class="s1">U</span><span class="s2">9 </span><span class="s1">Maroon</span><span class="s2"> </span><span class="s1">Lions</span><span class="s2"> 2026 </span><span class="s1">-</span><span class="s2"> </span><span class="s1">Game</span><span class="s2"> 9 🏉</span><span class="s1">&lt;/title&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;link</span><span class="s2"> </span><span class="s1">rel="stylesheet"</span><span class="s2"> </span><span class="s1">href="style.css"&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;style&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">/</span><span class="s2">* </span><span class="s1">small</span><span class="s2"> </span><span class="s1">inline</span><span class="s2"> </span><span class="s1">styles</span><span class="s2"> </span><span class="s1">for</span><span class="s2"> </span><span class="s1">the</span><span class="s2"> </span><span class="s1">audio</span><span class="s2"> </span><span class="s1">hint</span><span class="s2"> </span><span class="s1">and</span><span class="s2"> </span><span class="s1">lightbox</span><span class="s2"> </span><span class="s1">layout</span><span class="s2"> *</span><span class="s1">/</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">   </span></span><span class="s1">//</span><span class="s2"> </span><span class="s1">.audio-hint</span><span class="s2"> </span><span class="s1">{</span><span class="s2"> </span><span class="s1">text-align:center;</span><span class="s2"> </span><span class="s1">color:</span><span class="s2">#666</span><span class="s1">;</span><span class="s2"> </span><span class="s1">font-size:</span><span class="s2">0</span><span class="s1">.</span><span class="s2">9</span><span class="s1">rem;</span><span class="s2"> </span><span class="s1">margin-top:</span><span class="s2">8</span><span class="s1">px;</span><span class="s2"> </span><span class="s1">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">//</span><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">.audio-controls-wrap</span><span class="s2"> </span><span class="s1">{</span><span class="s2"> </span><span class="s1">text-align:center;</span><span class="s2"> </span><span class="s1">margin-bottom:</span><span class="s2">8</span><span class="s1">px;</span><span class="s2"> </span><span class="s1">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">.lightbox</span><span class="s2"> </span><span class="s1">{</span><span class="s2"> </span><span class="s1">align-items:center;</span><span class="s2"> </span><span class="s1">justify-content:center;</span><span class="s2"> </span><span class="s1">position:fixed;</span><span class="s2"> </span><span class="s1">inset:</span><span class="s2">0</span><span class="s1">;</span><span class="s2"> </span><span class="s1">background:rgba(</span><span class="s2">0</span><span class="s1">,</span><span class="s2">0</span><span class="s1">,</span><span class="s2">0</span><span class="s1">,</span><span class="s2">0</span><span class="s1">.</span><span class="s2">85</span><span class="s1">);</span><span class="s2"> </span><span class="s1">z-index:</span><span class="s2">9999</span><span class="s1">;</span><span class="s2"> </span><span class="s1">display:none;</span><span class="s2"> </span><span class="s1">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">.lightbox</span><span class="s2"> </span><span class="s1">img</span><span class="s2"> </span><span class="s1">{</span><span class="s2"> </span><span class="s1">max-width:</span><span class="s2">90</span><span class="s1">%;</span><span class="s2"> </span><span class="s1">max-height:</span><span class="s2">80</span><span class="s1">%;</span><span class="s2"> </span><span class="s1">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">.close</span><span class="s2"> </span><span class="s1">{</span><span class="s2"> </span><span class="s1">position:absolute;</span><span class="s2"> </span><span class="s1">top:</span><span class="s2">20</span><span class="s1">px;</span><span class="s2"> </span><span class="s1">right:</span><span class="s2">30</span><span class="s1">px;</span><span class="s2"> </span><span class="s1">color:</span><span class="s2">#</span><span class="s1">fff;</span><span class="s2"> </span><span class="s1">font-size:</span><span class="s2">2</span><span class="s1">rem;</span><span class="s2"> </span><span class="s1">cursor:pointer;</span><span class="s2"> </span><span class="s1">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">.prev,</span><span class="s2"> </span><span class="s1">.next</span><span class="s2"> </span><span class="s1">{</span><span class="s2"> </span><span class="s1">position:absolute;</span><span class="s2"> </span><span class="s1">top:</span><span class="s2">50</span><span class="s1">%;</span><span class="s2"> </span><span class="s1">transform:translateY(-</span><span class="s2">50</span><span class="s1">%);</span><span class="s2"> </span><span class="s1">background:transparent;</span><span class="s2"> </span><span class="s1">border:none;</span><span class="s2"> </span><span class="s1">color:</span><span class="s2">#</span><span class="s1">fff;</span><span class="s2"> </span><span class="s1">font-size:</span><span class="s2">2</span><span class="s1">rem;</span><span class="s2"> </span><span class="s1">cursor:pointer;</span><span class="s2"> </span><span class="s1">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">.prev</span><span class="s2"> </span><span class="s1">{</span><span class="s2"> </span><span class="s1">left:</span><span class="s2">20</span><span class="s1">px;</span><span class="s2"> </span><span class="s1">}</span><span class="s2"> </span><span class="s1">.next</span><span class="s2"> </span><span class="s1">{</span><span class="s2"> </span><span class="s1">right:</span><span class="s2">20</span><span class="s1">px;</span><span class="s2"> </span><span class="s1">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">.gallery</span><span class="s2"> </span><span class="s1">.photo</span><span class="s2"> </span><span class="s1">{</span><span class="s2"> </span><span class="s1">display:inline-block;</span><span class="s2"> </span><span class="s1">margin:</span><span class="s2">8</span><span class="s1">px;</span><span class="s2"> </span><span class="s1">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">.gallery</span><span class="s2"> </span><span class="s1">img</span><span class="s2"> </span><span class="s1">{</span><span class="s2"> </span><span class="s1">max-width:</span><span class="s2">180</span><span class="s1">px;</span><span class="s2"> </span><span class="s1">height:auto;</span><span class="s2"> </span><span class="s1">display:block;</span><span class="s2"> </span><span class="s1">cursor:pointer;</span><span class="s2"> </span><span class="s1">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/style&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s1">&lt;/head&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s1">&lt;body&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;h</span><span class="s2">1</span><span class="s1">&gt;</span><span class="s2">🦁 </span><span class="s1">U</span><span class="s2">9 </span><span class="s1">Maroon</span><span class="s2"> </span><span class="s1">Lions</span><span class="s2"> 2026 </span><span class="s1">-</span><span class="s2"> </span><span class="s1">Game</span><span class="s2"> 9 🏉</span><span class="s1">&lt;/h</span><span class="s2">1</span><span class="s1">&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!--</span><span class="s2"> </span><span class="s1">Add</span><span class="s2"> </span><span class="s1">links</span><span class="s2"> </span><span class="s1">to</span><span class="s2"> </span><span class="s1">other</span><span class="s2"> </span><span class="s1">repositories</span><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">class="active"</span><span class="s2"> <span class="Apple-converted-space">  </span></span><span class="s1">--&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s1">&lt;ul</span><span class="s2"> </span><span class="s1">class="nav-list"&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;li&gt;&lt;a</span><span class="s2"> </span><span class="s1">href="https://mariebridgwood.github.io/</span><span class="s2">2026</span><span class="s1">U</span><span class="s2">9</span><span class="s1">Gallery"&gt;Home&lt;/a&gt;&lt;/li&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s1">&lt;/ul&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;!--</span><span class="s2"> </span><span class="s1">Audio</span><span class="s2"> </span><span class="s1">element:</span><span class="s2"> </span><span class="s1">we</span><span class="s2"> </span><span class="s1">do</span><span class="s2"> </span><span class="s1">NOT</span><span class="s2"> </span><span class="s1">use</span><span class="s2"> </span><span class="s1">autoplay.</span><span class="s2"> </span><span class="s1">We</span><span class="s2"> </span><span class="s1">will</span><span class="s2"> </span><span class="s1">start</span><span class="s2"> </span><span class="s1">on</span><span class="s2"> </span><span class="s1">a</span><span class="s2"> </span><span class="s1">user</span><span class="s2"> </span><span class="s1">click</span><span class="s2"> </span><span class="s1">on</span><span class="s2"> </span><span class="s1">a</span><span class="s2"> </span><span class="s1">photo.</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">       </span></span><span class="s1">It</span><span class="s2"> </span><span class="s1">loops</span><span class="s2"> </span><span class="s1">and</span><span class="s2"> </span><span class="s1">is</span><span class="s2"> </span><span class="s1">preloaded.</span><span class="s2"> </span><span class="s1">playsinline</span><span class="s2"> </span><span class="s1">helps</span><span class="s2"> </span><span class="s1">mobile.</span><span class="s2"><span class="Apple-converted-space"> </span></span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;div</span><span class="s2"> </span><span class="s1">class="audio-controls-wrap"&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;audio</span><span class="s2"> </span><span class="s1">id="bgAudio"</span><span class="s2"> </span><span class="s1">loop</span><span class="s2"> </span><span class="s1">preload="auto"</span><span class="s2"> </span><span class="s1">playsinline&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;source</span><span class="s2"> </span><span class="s1">src="audio/Lions.mp</span><span class="s2">3</span><span class="s1">"</span><span class="s2"> </span><span class="s1">type="audio/mpeg"&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">Your</span><span class="s2"> </span><span class="s1">browser</span><span class="s2"> </span><span class="s1">does</span><span class="s2"> </span><span class="s1">not</span><span class="s2"> </span><span class="s1">support</span><span class="s2"> </span><span class="s1">the</span><span class="s2"> </span><span class="s1">audio</span><span class="s2"> </span><span class="s1">element.</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;/audio&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;button</span><span class="s2"> </span><span class="s1">id="toggleAudio"</span><span class="s2"> </span><span class="s1">aria-pressed="false"&gt;Play</span><span class="s2"> </span><span class="s1">audio&lt;/button&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;div</span><span class="s2"> </span><span class="s1">id="audioHint"</span><span class="s2"> </span><span class="s1">class="audio-hint"&gt;Click</span><span class="s2"> </span><span class="s1">a</span><span class="s2"> </span><span class="s1">photo</span><span class="s2"> </span><span class="s1">to</span><span class="s2"> </span><span class="s1">open</span><span class="s2"> </span><span class="s1">it</span><span class="s2"> </span><span class="s1">and</span><span class="s2"> </span><span class="s1">start</span><span class="s2"> </span><span class="s1">audio</span><span class="s2"> </span><span class="s1">(playback</span><span class="s2"> </span><span class="s1">will</span><span class="s2"> </span><span class="s1">continue</span><span class="s2"> </span><span class="s1">while</span><span class="s2"> </span><span class="s1">you</span><span class="s2"> </span><span class="s1">view</span><span class="s2"> </span><span class="s1">photos).&lt;/div&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/div&gt;--&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;div</span><span class="s2"> </span><span class="s1">id="gallery"</span><span class="s2"> </span><span class="s1">class="gallery"&gt;&lt;/div&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;!--</span><span class="s2"> </span><span class="s1">Lightbox</span><span class="s2"> </span><span class="s1">--&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;div</span><span class="s2"> </span><span class="s1">class="lightbox"</span><span class="s2"> </span><span class="s1">style="display:none;"&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;span</span><span class="s2"> </span><span class="s1">class="close"</span><span class="s2"> </span><span class="s1">title="Close"&gt;&amp;times;&lt;/span&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;img</span><span class="s2"> </span><span class="s1">src=""</span><span class="s2"> </span><span class="s1">alt="Enlarged</span><span class="s2"> </span><span class="s1">photo"&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;button</span><span class="s2"> </span><span class="s1">class="prev"</span><span class="s2"> </span><span class="s1">onclick="changeImage(-</span><span class="s2">1</span><span class="s1">)"</span><span class="s2"> </span><span class="s1">title="Previous"&gt;&amp;</span><span class="s2">#10094</span><span class="s1">;&lt;/button&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;button</span><span class="s2"> </span><span class="s1">class="next"</span><span class="s2"> </span><span class="s1">onclick="changeImage(</span><span class="s2">1</span><span class="s1">)"</span><span class="s2"> </span><span class="s1">title="Next"&gt;&amp;</span><span class="s2">#10095</span><span class="s1">;&lt;/button&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">&lt;/div&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s1">&lt;script&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">const</span><span class="s2"> </span><span class="s1">imageList</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">[</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 12.0px Helvetica"><span class="s3"><span class="Apple-converted-space"> </span></span> "DSC_0570.JPG",</h1>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0572.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0579.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0582.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0585.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0593.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0594.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0597.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0601.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0604.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0606.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0619.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0621.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0625.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0626.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0628.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0630.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0635.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0640.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0651.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0560.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0557.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0555.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0554.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0553.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0547.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0546.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0543.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0541.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0539.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0537.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0533.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0532.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0529.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0527.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0526.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0519.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0516.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0512.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0507.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0505.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0504.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0501.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0495.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0494.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0493.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0491.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0490.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0487.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0489.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0485.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0481.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0486.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0482.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0483.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0472.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0465.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0466.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0470.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0441.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0442.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0435.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0438.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0439.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0437.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0436.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0443.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0444.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0450.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0430.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0427.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0421.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0414.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0413.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0416.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0411.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0409.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0399.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0397.JPG",</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p4"><span class="Apple-converted-space"> </span>"DSC_0395.JPG"</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s4">];</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">const</span><span class="s2"> </span><span class="s1">gallery</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">document.getElementById("gallery");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">let</span><span class="s2"> </span><span class="s1">currentImageIndex</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> 0</span><span class="s1">;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">//</span><span class="s2"> </span><span class="s1">Build</span><span class="s2"> </span><span class="s1">gallery</span><span class="s2"> </span><span class="s1">thumbnails</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">imageList.forEach((filename,</span><span class="s2"> </span><span class="s1">index)</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">const</span><span class="s2"> </span><span class="s1">photoDiv</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">document.createElement("div");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">photoDiv.className</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"photo";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">photoDiv.innerHTML</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">`</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;img</span><span class="s2"> </span><span class="s1">src="Images/${filename}"</span><span class="s2"> </span><span class="s1">alt="${filename}"</span><span class="s2"> </span><span class="s1">data-index="${index}"&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">&lt;a</span><span class="s2"> </span><span class="s1">href="Images/${filename}"</span><span class="s2"> </span><span class="s1">download&gt;Download&lt;/a&gt;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">`;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">gallery.appendChild(photoDiv);</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">});</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">const</span><span class="s2"> </span><span class="s1">lightbox</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">document.querySelector(".lightbox");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">const</span><span class="s2"> </span><span class="s1">lightboxImage</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">document.querySelector(".lightbox</span><span class="s2"> </span><span class="s1">img");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">const</span><span class="s2"> </span><span class="s1">closeBtn</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">document.querySelector(".close");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s4">/</span><span class="s1">*</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">AUDIO</span><span class="s2"> </span><span class="s1">SECTION</span><span class="s2"> </span><span class="s1">COMMENTED</span><span class="s2"> </span><span class="s1">OUT</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">const</span><span class="s2"> </span><span class="s1">audio</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">document.getElementById("bgAudio");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">const</span><span class="s2"> </span><span class="s1">audioHint</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">document.getElementById("audioHint");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">const</span><span class="s2"> </span><span class="s1">toggleAudioBtn</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">document.getElementById("toggleAudio");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">toggleAudioBtn.addEventListener("click",</span><span class="s2"> </span><span class="s1">()</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">if</span><span class="s2"> </span><span class="s1">(audio.paused)</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">audio.play().then(()</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">toggleAudioBtn.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Pause</span><span class="s2"> </span><span class="s1">audio";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">toggleAudioBtn.setAttribute("aria-pressed",</span><span class="s2"> </span><span class="s1">"true");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audioHint.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Audio</span><span class="s2"> </span><span class="s1">playing</span><span class="s2"> </span><span class="s1">—</span><span class="s2"> </span><span class="s1">you</span><span class="s2"> </span><span class="s1">can</span><span class="s2"> </span><span class="s1">continue</span><span class="s2"> </span><span class="s1">viewing</span><span class="s2"> </span><span class="s1">photos.";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audio.controls</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">true;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">}).catch(err</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">console.warn("Audio</span><span class="s2"> </span><span class="s1">play</span><span class="s2"> </span><span class="s1">prevented:",</span><span class="s2"> </span><span class="s1">err);</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audio.controls</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">true;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audioHint.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Playback</span><span class="s2"> </span><span class="s1">blocked;</span><span class="s2"> </span><span class="s1">press</span><span class="s2"> </span><span class="s1">Play</span><span class="s2"> </span><span class="s1">in</span><span class="s2"> </span><span class="s1">the</span><span class="s2"> </span><span class="s1">audio</span><span class="s2"> </span><span class="s1">controls.";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">});</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">}</span><span class="s1"> </span><span class="s4">else</span><span class="s1"> </span><span class="s4">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">audio.pause();</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">toggleAudioBtn.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Play</span><span class="s2"> </span><span class="s1">audio";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">toggleAudioBtn.setAttribute("aria-pressed",</span><span class="s2"> </span><span class="s1">"false");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">audioHint.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Audio</span><span class="s2"> </span><span class="s1">paused.</span><span class="s2"> </span><span class="s1">Click</span><span class="s2"> </span><span class="s1">a</span><span class="s2"> </span><span class="s1">photo</span><span class="s2"> </span><span class="s1">or</span><span class="s2"> </span><span class="s1">Play</span><span class="s2"> </span><span class="s1">to</span><span class="s2"> </span><span class="s1">start</span><span class="s2"> </span><span class="s1">again.";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">});</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">  </span>*</span><span class="s4">/</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">function</span><span class="s2"> </span><span class="s1">openLightbox(event)</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">if</span><span class="s2"> </span><span class="s1">(event.target.tagName</span><span class="s2"> </span><span class="s1">===</span><span class="s2"> </span><span class="s1">"A")</span><span class="s2"> </span><span class="s1">return;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">event.preventDefault();</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">currentImageIndex</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">Number(event.target.dataset.index);</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">updateLightboxImage();</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">lightbox.style.display</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"flex";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">/</span><span class="s1">*</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">AUDIO</span><span class="s2"> </span><span class="s1">AUTO-PLAY</span><span class="s2"> </span><span class="s1">ON</span><span class="s2"> </span><span class="s1">PHOTO</span><span class="s2"> </span><span class="s1">CLICK</span><span class="s2"> </span><span class="s1">COMMENTED</span><span class="s2"> </span><span class="s1">OUT</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">if</span><span class="s2"> </span><span class="s1">(audio.paused)</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">audio.currentTime</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> 0</span><span class="s1">;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">audio.play().then(()</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">toggleAudioBtn.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Pause</span><span class="s2"> </span><span class="s1">audio";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">toggleAudioBtn.setAttribute("aria-pressed",</span><span class="s2"> </span><span class="s1">"true");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audioHint.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Audio</span><span class="s2"> </span><span class="s1">playing</span><span class="s2"> </span><span class="s1">—</span><span class="s2"> </span><span class="s1">it</span><span class="s2"> </span><span class="s1">will</span><span class="s2"> </span><span class="s1">continue</span><span class="s2"> </span><span class="s1">as</span><span class="s2"> </span><span class="s1">you</span><span class="s2"> </span><span class="s1">change</span><span class="s2"> </span><span class="s1">images.";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audio.controls</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">true;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">}).catch(err</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">console.warn("Audio</span><span class="s2"> </span><span class="s1">play</span><span class="s2"> </span><span class="s1">prevented</span><span class="s2"> </span><span class="s1">or</span><span class="s2"> </span><span class="s1">failed:",</span><span class="s2"> </span><span class="s1">err);</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audio.controls</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">true;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audioHint.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Playback</span><span class="s2"> </span><span class="s1">blocked;</span><span class="s2"> </span><span class="s1">press</span><span class="s2"> </span><span class="s1">Play</span><span class="s2"> </span><span class="s1">in</span><span class="s2"> </span><span class="s1">the</span><span class="s2"> </span><span class="s1">audio</span><span class="s2"> </span><span class="s1">controls.";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">});</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">}</span><span class="s1"> </span><span class="s4">else</span><span class="s1"> </span><span class="s4">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">audioHint.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Audio</span><span class="s2"> </span><span class="s1">already</span><span class="s2"> </span><span class="s1">playing</span><span class="s2"> </span><span class="s1">—</span><span class="s2"> </span><span class="s1">it</span><span class="s2"> </span><span class="s1">will</span><span class="s2"> </span><span class="s1">continue</span><span class="s2"> </span><span class="s1">as</span><span class="s2"> </span><span class="s1">you</span><span class="s2"> </span><span class="s1">change</span><span class="s2"> </span><span class="s1">images.";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">audio.controls</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">true;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span>*</span><span class="s4">/</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s4">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">//</span><span class="s2"> </span><span class="s1">Add</span><span class="s2"> </span><span class="s1">click</span><span class="s2"> </span><span class="s1">listeners</span><span class="s2"> </span><span class="s1">to</span><span class="s2"> </span><span class="s1">all</span><span class="s2"> </span><span class="s1">thumbnails</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">const</span><span class="s2"> </span><span class="s1">thumbnails</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">document.querySelectorAll(".gallery</span><span class="s2"> </span><span class="s1">img");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">thumbnails.forEach(thumbnail</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">thumbnail.addEventListener("click",</span><span class="s2"> </span><span class="s1">openLightbox);</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">});</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">function</span><span class="s2"> </span><span class="s1">updateLightboxImage()</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">lightboxImage.src</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">`Images/${imageList[currentImageIndex]}`;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s4">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">function</span><span class="s2"> </span><span class="s1">closeLightbox()</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">lightbox.style.display</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"none";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">/</span><span class="s1">*</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">AUDIO</span><span class="s2"> </span><span class="s1">CLOSE</span><span class="s2"> </span><span class="s1">BEHAVIOUR</span><span class="s2"> </span><span class="s1">COMMENTED</span><span class="s2"> </span><span class="s1">OUT</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">audioHint.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">audio.paused</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">?</span><span class="s2"> </span><span class="s1">"Audio</span><span class="s2"> </span><span class="s1">paused."</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">:</span><span class="s2"> </span><span class="s1">"Audio</span><span class="s2"> </span><span class="s1">playing</span><span class="s2"> </span><span class="s1">in</span><span class="s2"> </span><span class="s1">background.";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span>*</span><span class="s4">/</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s4">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">function</span><span class="s2"> </span><span class="s1">changeImage(direction)</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">currentImageIndex</span><span class="s2"> </span><span class="s1">+=</span><span class="s2"> </span><span class="s1">direction;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">if</span><span class="s2"> </span><span class="s1">(currentImageIndex</span><span class="s2"> </span><span class="s1">&lt;</span><span class="s2"> 0</span><span class="s1">)</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">currentImageIndex</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">imageList.length</span><span class="s2"> </span><span class="s1">-</span><span class="s2"> 1</span><span class="s1">;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">}</span><span class="s2"> </span><span class="s1">else</span><span class="s2"> </span><span class="s1">if</span><span class="s2"> </span><span class="s1">(currentImageIndex</span><span class="s2"> </span><span class="s1">&gt;=</span><span class="s2"> </span><span class="s1">imageList.length)</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">currentImageIndex</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> 0</span><span class="s1">;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">updateLightboxImage();</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">/</span><span class="s1">*</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">AUDIO</span><span class="s2"> </span><span class="s1">CONTINUE</span><span class="s2"> </span><span class="s1">ON</span><span class="s2"> </span><span class="s1">IMAGE</span><span class="s2"> </span><span class="s1">CHANGE</span><span class="s2"> </span><span class="s1">COMMENTED</span><span class="s2"> </span><span class="s1">OUT</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">if</span><span class="s2"> </span><span class="s1">(audio.paused)</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">audio.play().then(()</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">toggleAudioBtn.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Pause</span><span class="s2"> </span><span class="s1">audio";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">toggleAudioBtn.setAttribute("aria-pressed",</span><span class="s2"> </span><span class="s1">"true");</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audioHint.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Audio</span><span class="s2"> </span><span class="s1">playing</span><span class="s2"> </span><span class="s1">—</span><span class="s2"> </span><span class="s1">it</span><span class="s2"> </span><span class="s1">will</span><span class="s2"> </span><span class="s1">continue</span><span class="s2"> </span><span class="s1">as</span><span class="s2"> </span><span class="s1">you</span><span class="s2"> </span><span class="s1">change</span><span class="s2"> </span><span class="s1">images.";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">}).catch(err</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">console.warn("Audio</span><span class="s2"> </span><span class="s1">play</span><span class="s2"> </span><span class="s1">on</span><span class="s2"> </span><span class="s1">change</span><span class="s2"> </span><span class="s1">failed:",</span><span class="s2"> </span><span class="s1">err);</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audio.controls</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">true;</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audioHint.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Tap</span><span class="s2"> </span><span class="s1">Play</span><span class="s2"> </span><span class="s1">on</span><span class="s2"> </span><span class="s1">the</span><span class="s2"> </span><span class="s1">audio</span><span class="s2"> </span><span class="s1">controls</span><span class="s2"> </span><span class="s1">to</span><span class="s2"> </span><span class="s1">listen.";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">});</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span>*</span><span class="s4">/</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s4">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">//</span><span class="s2"> </span><span class="s1">Close</span><span class="s2"> </span><span class="s1">when</span><span class="s2"> </span><span class="s1">clicking</span><span class="s2"> </span><span class="s1">the</span><span class="s2"> </span><span class="s1">backdrop</span><span class="s2"> </span><span class="s1">or</span><span class="s2"> </span><span class="s1">close</span><span class="s2"> </span><span class="s1">button</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">lightbox.addEventListener("click",</span><span class="s2"> </span><span class="s1">(e)</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">if</span><span class="s2"> </span><span class="s1">(e.target</span><span class="s2"> </span><span class="s1">===</span><span class="s2"> </span><span class="s1">lightbox</span><span class="s2"> </span><span class="s1">||</span><span class="s2"> </span><span class="s1">e.target</span><span class="s2"> </span><span class="s1">===</span><span class="s2"> </span><span class="s1">closeBtn)</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">closeLightbox();</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">});</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">//</span><span class="s2"> </span><span class="s1">Keyboard</span><span class="s2"> </span><span class="s1">navigation:</span><span class="s2"> </span><span class="s1">Esc</span><span class="s2"> </span><span class="s1">to</span><span class="s2"> </span><span class="s1">close,</span><span class="s2"> </span><span class="s1">arrows</span><span class="s2"> </span><span class="s1">to</span><span class="s2"> </span><span class="s1">change</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">document.addEventListener("keydown",</span><span class="s2"> </span><span class="s1">(e)</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">if</span><span class="s2"> </span><span class="s1">(lightbox.style.display</span><span class="s2"> </span><span class="s1">===</span><span class="s2"> </span><span class="s1">"flex")</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">if</span><span class="s2"> </span><span class="s1">(e.key</span><span class="s2"> </span><span class="s1">===</span><span class="s2"> </span><span class="s1">"Escape")</span><span class="s2"> </span><span class="s1">closeLightbox();</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">if</span><span class="s2"> </span><span class="s1">(e.key</span><span class="s2"> </span><span class="s1">===</span><span class="s2"> </span><span class="s1">"ArrowLeft")</span><span class="s2"> </span><span class="s1">changeImage(-</span><span class="s2">1</span><span class="s1">);</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">if</span><span class="s2"> </span><span class="s1">(e.key</span><span class="s2"> </span><span class="s1">===</span><span class="s2"> </span><span class="s1">"ArrowRight")</span><span class="s2"> </span><span class="s1">changeImage(</span><span class="s2">1</span><span class="s1">);</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">});</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">  </span></span><span class="s4">/</span><span class="s1">*</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">AUDIO</span><span class="s2"> </span><span class="s1">FILE</span><span class="s2"> </span><span class="s1">CHECK</span><span class="s2"> </span><span class="s1">COMMENTED</span><span class="s2"> </span><span class="s1">OUT</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000; min-height: 32.0px"><span class="s1"></span><br></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">(function</span><span class="s2"> </span><span class="s1">checkAudioExists()</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">fetch("audio/Lions.mp</span><span class="s2">3</span><span class="s1">",</span><span class="s2"> </span><span class="s1">{</span><span class="s2"> </span><span class="s1">method:</span><span class="s2"> </span><span class="s1">"HEAD"</span><span class="s2"> </span><span class="s1">}).then(res</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">if</span><span class="s2"> </span><span class="s1">(!res.ok)</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">console.warn("Audio</span><span class="s2"> </span><span class="s1">file</span><span class="s2"> </span><span class="s1">not</span><span class="s2"> </span><span class="s1">reachable:</span><span class="s2"> </span><span class="s1">status",</span><span class="s2"> </span><span class="s1">res.status);</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">        </span></span><span class="s1">audioHint.textContent</span><span class="s2"> </span><span class="s1">=</span><span class="s2"> </span><span class="s1">"Audio</span><span class="s2"> </span><span class="s1">file</span><span class="s2"> </span><span class="s1">not</span><span class="s2"> </span><span class="s1">reachable.</span><span class="s2"> </span><span class="s1">Check</span><span class="s2"> </span><span class="s1">audio/Lions.mp</span><span class="s2">3 </span><span class="s1">path.";</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">      </span></span><span class="s4">}</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">    </span></span><span class="s1">}).catch(err</span><span class="s2"> </span><span class="s1">=&gt;</span><span class="s2"> </span><span class="s1">{</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">      </span></span><span class="s1">console.warn("Audio</span><span class="s2"> </span><span class="s1">HEAD</span><span class="s2"> </span><span class="s1">check</span><span class="s2"> </span><span class="s1">failed",</span><span class="s2"> </span><span class="s1">err);</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s4">});</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s2"><span class="Apple-converted-space">  </span></span><span class="s1">})();</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px 'Apple Color Emoji'; -webkit-text-stroke: #000000"><span class="s1"><span class="Apple-converted-space">  </span>*</span><span class="s4">/</span></h1>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Helvetica; -webkit-text-stroke: #000000"><span class="s1">&lt;/script&gt;</span></h1>
+</body>
+</html>
